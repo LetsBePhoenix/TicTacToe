@@ -1,0 +1,11 @@
+C:\Users\fbrinke\Documents\GitHub\TTT\bin\Debug\TTT.exe.config
+C:\Users\fbrinke\Documents\GitHub\TTT\bin\Debug\TTT.exe
+C:\Users\fbrinke\Documents\GitHub\TTT\bin\Debug\TTT.pdb
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.csproj.AssemblyReference.cache
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.csproj.SuggestedBindingRedirects.cache
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.Form1.resources
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.Properties.Resources.resources
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.csproj.GenerateResource.cache
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.csproj.CoreCompileInputs.cache
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.exe
+C:\Users\fbrinke\Documents\GitHub\TTT\obj\Debug\TTT.pdb
