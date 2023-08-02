@@ -20,11 +20,11 @@ namespace TTT
         public string Player1_Value;
         public string Player2_Value;
         public int Player = 1;
-        public int Button_Click = 0;
         public int Zeile;
         public int Spalte;
         public static int[,] Field = new int[3, 3] { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 } };
         public Random random = new Random();
+        
         public Form1()
         {
             InitializeComponent();
@@ -41,6 +41,7 @@ namespace TTT
             Player1_Value = comboBox1.SelectedItem.ToString();
             Player2_Value = comboBox2.SelectedItem.ToString();
         }
+        
         private void RenewField()
         {
             switch(Field[0,0])
@@ -155,6 +156,7 @@ namespace TTT
             label6.Text = Convert.ToString(Player2_Wins);
             label8.Text = Convert.ToString(Patt_Wins);
         }
+        
         // Bot0 = Player
         private void Bot0()
         {
@@ -168,6 +170,7 @@ namespace TTT
                 
             }
         }
+        
         private void Bot1()
         {
             Zeile = random.Next(0, 3);
@@ -182,6 +185,7 @@ namespace TTT
                 Play();
             }
         }
+        
         private void Bot2()
         {
             int place;
@@ -244,6 +248,7 @@ namespace TTT
                 }
             }
         }
+        
         private void Bot3()
         {
             int WinTest;
@@ -482,6 +487,7 @@ namespace TTT
                 Play();
             }
         }
+        
         private void Play()
         {
             // Prüfe ob Spieler1 Gewonnen hat
@@ -561,6 +567,7 @@ namespace TTT
             }
             RenewField();
         }
+        
         private int OtherPlayer()
         {
             if (Player == 1)
@@ -572,6 +579,7 @@ namespace TTT
                 return 1;
             }
         }
+        
         private void Btn_Settings(object sender, EventArgs e)
         {
             if (button1.Text == "Play")
@@ -612,10 +620,12 @@ namespace TTT
                 button10.Enabled = false;
             }
         }
+        
         private void Cmd_Player1(object sender, EventArgs e)
         {
             Player1_Value = comboBox1.SelectedItem.ToString();
         }
+        
         private void Cmd_Player2(object sender, EventArgs e)
         {
             Player2_Value = comboBox2.SelectedItem.ToString();
@@ -750,6 +760,7 @@ namespace TTT
         {
 
         }
+        
         // Nicht Benannt
         private void splitContainer2_Panel2_Paint(object sender, PaintEventArgs e)
         {
